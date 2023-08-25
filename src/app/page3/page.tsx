@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import NavBar from "@/components/NavBar";
 
 export default function Page() {
   return (
-    <div>page 3</div>
-  )
+    <div>
+      <NavBar />
+      page 3
+    </div>
+  );
 }

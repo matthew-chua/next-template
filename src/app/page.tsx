@@ -2,16 +2,17 @@
 import ethers from "ethers";
 
 //components
-import Button from "@/components/Button";
+import NavBar from "@/components/NavBar";
+import RoundButton from "@/components/RoundButton";
+
 
 export default function Home() {
 
-  const connectWalletHandler = async () => {
-    
-  }
   return (
     <div className="flex flex-col items-center">
-      <Button onClick={connectWalletHandler} text="Connect Wallet"/>
+      <NavBar/>
+      Home Page
+      <RoundButton text="Round Button"/>
     </div>
   )
 }
