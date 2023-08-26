@@ -11,7 +11,7 @@ export default function NavBar() {
       <Link href='/page2' className='mx-6 hover:underline'>Page 2</Link>
       <Link href='/page3' className='mx-6 hover:underline'>Page 3</Link>
       <div className='grow'></div>
-      <Button className='m-2' text="Connect Wallet"/>
+      <Button title="Connect Wallet"/>
     </div>
   )
 }
