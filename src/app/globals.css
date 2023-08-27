@@ -27,3 +27,17 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+
+h1,
+h2 {
+  /* 40px/16=2.5em */
+  font-family: var(--font-londrina-solid);
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
