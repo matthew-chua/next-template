@@ -35,5 +35,20 @@ export default function Home() {
     </section>
   );
 
-  return <div className="flex flex-col px-16">{landingSection}</div>;
+  const banner = (
+    <div className="flex bg-red-light p-8 my-5 rounded-md justify-between">
+      <div className="mt-2 text-2xl font-light">
+        <span className="font-bold">This is some generic text. </span>
+        This is more generic text
+      </div>
+      <Button title="Action"></Button>
+    </div>
+  );
+
+  return (
+    <div className="flex flex-col px-16">
+      {landingSection}
+      {banner}
+    </div>
+  );
 }
