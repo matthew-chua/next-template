@@ -14,7 +14,7 @@ export default function Button({
   const primaryButtonStyle =
     "bg-red hover:bg-red-hover active:bg-red-active text-white";
   const secondaryButtonStyle =
-    "bg-white hover:bg-red-hover active:bg-red-active";
+    "bg-white hover:bg-red-light active:bg-red-active";
 
   return (
     <button
