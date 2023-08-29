@@ -4,7 +4,6 @@ import ethers from "ethers";
 
 //components
 import Button from "@/components/Button";
-import RoundButton from "@/components/RoundButton";
 import Image from "next/image";
 import Card from "@/components/Card";
 import Gallery from "@/components/Gallery";
@@ -62,7 +61,7 @@ export default function Home() {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation.
       </p>
-      <RoundButton title="Test" />
+      <Button title="Test" isRounded={true} />
     </div>
   );
 

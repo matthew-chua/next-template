@@ -3,11 +3,13 @@ import React from "react";
 export default function Button({
   title,
   isSecondary,
+  isRounded,
   className,
   onClick,
 }: {
   title: string;
   isSecondary?: boolean;
+  isRounded?: boolean;
   className?: string;
   onClick?: () => void;
 }) {
@@ -19,7 +21,9 @@ export default function Button({
   return (
     <button
       onClick={onClick}
-      className={`rounded-md border-2 border-red py-2 px-8 transition active:transition-none ${className} ${
+      className={`${
+        isRounded ? "rounded-full" : "rounded-md"
+      } border-2 border-red py-2 px-8 transition active:transition-none ${className} ${
         isSecondary ? secondaryButtonStyle : primaryButtonStyle
       }`}
     >
