@@ -20,7 +20,7 @@ export default function Card({
   secondaryAction: () => void;
 }) {
   return (
-    <div className="flex flex-col items-center w-80 bg-red-light rounded-lg p-6">
+    <div className="flex flex-col items-center bg-red-light rounded-lg p-6 place-self-center w-5/6">
       <div className="flex items-center w-full text-xl">
         <div>{title}</div>
         <div className="grow" />
@@ -28,7 +28,7 @@ export default function Card({
       </div>
       <Image className="mx-6 mt-16 mb-4" src={placeholderSVG} alt="placeholder" />
       <div>{description}</div>
-      <div className="flex space-x-6 mt-4">
+      <div className="flex space-x-2 mt-4">
         <Button
           title={secondaryActionTitle}
           isSecondary={true}

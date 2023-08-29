@@ -6,6 +6,8 @@ import ethers from "ethers";
 import Button from "@/components/Button";
 import RoundButton from "@/components/RoundButton";
 import Image from "next/image";
+import Card from "@/components/Card";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   const buttonHandler = () => {
@@ -80,6 +82,7 @@ export default function Home() {
       {landingSection}
       {banner}
       {firstSection}
+      <Gallery />
     </div>
   );
 }
