@@ -5,10 +5,10 @@ const colors = require('tailwindcss/colors')
 const customColors = {
   red: {
     "light": "#FDDCDB",
-    "dark": "86100D",
+    "dark": "#86100D",
     DEFAULT: "#F3322C", // Overwrite default
     "hover": "#DD1009",
-    "active": "#DD100950"
+    "active": "#DD100950",
   },
   blue: {
     DEFAULT: "#2B83F6", // Overwrite default
