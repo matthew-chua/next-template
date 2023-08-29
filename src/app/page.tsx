@@ -76,12 +76,20 @@ export default function Home() {
     </section>
   );
 
+  const gallerySection = (
+    <section className="flex flex-col items-center">
+      <h2>Featured</h2>
+      <p className="mb-12">Some description about featured items.</p>
+      <Gallery />
+    </section>
+  );
+
   return (
     <div className="flex flex-col px-16">
       {landingSection}
       {banner}
       {firstSection}
-      <Gallery />
+      {gallerySection}
     </div>
   );
 }
