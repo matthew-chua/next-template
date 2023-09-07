@@ -17,7 +17,7 @@ const customColors = {
     DEFAULT: "#4BEA69" // Overwrite default
   },
   gray: {
-    DEFAULT: "AAAAAA", // Overwrite default
+    DEFAULT: "#D9D9D9", // Overwrite default
   },
 };
 
