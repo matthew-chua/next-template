@@ -20,7 +20,7 @@ export default function Card({
   secondaryAction: () => void;
 }) {
   return (
-    <div className="flex flex-col items-center bg-red-light rounded-lg p-6 place-self-center w-5/6 hover:scale-105 hover:cursor-pointer transition" onClick={primaryAction}>
+    <div className="flex flex-col items-center bg-red-light rounded-lg p-6 place-self-center w-5/6 hover:scale-105 hover:cursor-pointer transition active:bg-red-active" onClick={primaryAction}>
       <div className="flex items-center w-full text-xl">
         <div>{title}</div>
         <div className="grow" />
