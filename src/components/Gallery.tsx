@@ -1,8 +1,15 @@
 import React from "react";
 import Card from "./Card";
+import { useRouter } from 'next/navigation'
+
 
 export default function Gallery() {
-  const primaryAction = () => {};
+
+  const router = useRouter()
+
+  const primaryAction = () => {
+    router.push("/detail-page")
+  };
   const secondaryAction = () => {};
   const dummyData = [
     {
